@@ -9,7 +9,8 @@ var newArrayNum = [];
 function rangePosition ( array, min , max){
 
 for (var i = 0; i < array.length; i++) {
-  if (i >= min && i <= max) {
+  if (i >= (min -1 ) && i <= (max-1)) {
+    console.log(array[i]);
     newArrayNum.push(array[i]);
   }
 }
